@@ -1,0 +1,48 @@
+[
+  {
+    "id": "INC-101",
+    "title": "Database Failover Failure",
+    "severity": "Critical",
+    "system": "Primary Database",
+    "issue": "Database failover failed during maintenance.",
+    "root_cause": "Replication service stopped because of configuration mismatch.",
+    "recovery_steps": [
+      "Restart replication service",
+      "Verify replication status",
+      "Trigger manual failover",
+      "Confirm application connectivity"
+    ],
+    "resolved_by": "John",
+    "date": "2026-05-10"
+  },
+  {
+    "id": "INC-102",
+    "title": "API Gateway Crash",
+    "severity": "High",
+    "system": "API Gateway",
+    "issue": "Gateway became unavailable.",
+    "root_cause": "Memory usage reached 100%.",
+    "recovery_steps": [
+      "Restart gateway",
+      "Increase memory allocation",
+      "Enable autoscaling"
+    ],
+    "resolved_by": "Alice",
+    "date": "2026-05-18"
+  },
+  {
+    "id": "INC-103",
+    "title": "VPN Authentication Failure",
+    "severity": "Medium",
+    "system": "VPN",
+    "issue": "Employees unable to connect remotely.",
+    "root_cause": "Expired authentication certificate.",
+    "recovery_steps": [
+      "Renew certificate",
+      "Restart VPN service",
+      "Verify authentication"
+    ],
+    "resolved_by": "David",
+    "date": "2026-06-02"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "RB-001",
+    "system": "Database",
+    "title": "Database Failover Procedure",
+    "steps": [
+      "Verify replication health",
+      "Restart replication service",
+      "Trigger failover",
+      "Verify database accessibility",
+      "Update incident log"
+    ],
+    "last_updated": "2025-01-10"
+  },
+  {
+    "id": "RB-002",
+    "system": "API Gateway",
+    "title": "Gateway Recovery",
+    "steps": [
+      "Check CPU and Memory",
+      "Restart gateway",
+      "Verify traffic routing",
+      "Enable autoscaling"
+    ],
+    "last_updated": "2024-08-14"
+  }
+]

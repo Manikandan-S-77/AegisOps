@@ -1,0 +1,23 @@
+[
+  {
+    "ticket_id": "TKT-201",
+    "incident": "INC-101",
+    "assigned_to": "John",
+    "status": "Closed",
+    "description": "Replication service stopped after patch deployment."
+  },
+  {
+    "ticket_id": "TKT-202",
+    "incident": "INC-102",
+    "assigned_to": "Alice",
+    "status": "Closed",
+    "description": "Gateway memory leak investigation."
+  },
+  {
+    "ticket_id": "TKT-203",
+    "incident": "INC-103",
+    "assigned_to": "David",
+    "status": "Closed",
+    "description": "Expired VPN certificate replacement."
+  }
+]
